@@ -6,6 +6,7 @@
 - SentencePieceをかけた後にアンダーバーを取り除く
 - (TODO:)追加するPython語彙に記号が含まれる
 
+### Tokenizer
 下から入れ替え
 - mT5:下から2500語(6/27作成)(HuggingFace準備中:`Roy029/mt5_replace_desc_2500py`)
 
@@ -17,6 +18,7 @@
 語彙の拡張
 - mT5:2500語付与(6/27作成)
 
+### Model
 語彙拡張に合わせたResizeモデル
 - mT5:2500語付与(準備中)
 - mT5:5000語付与(準備中)
